@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFFBA0152330F4090099E639 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFBA0142330F4090099E639 /* AppDelegate.m */; };
+		AFFBA0182330F4090099E639 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFBA0172330F4090099E639 /* ViewController.m */; };
+		AFFBA01B2330F4090099E639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFBA0192330F4090099E639 /* Main.storyboard */; };
+		AFFBA01D2330F40B0099E639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFBA01C2330F40B0099E639 /* Assets.xcassets */; };
+		AFFBA0202330F40B0099E639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFBA01E2330F40B0099E639 /* LaunchScreen.storyboard */; };
+		AFFBA0232330F40B0099E639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFBA0222330F40B0099E639 /* main.m */; };
+		AFFBA02B2330F89F0099E639 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFBA02A2330F89F0099E639 /* PresentViewController.swift */; };
+		AFFBA02D2330F8D80099E639 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFBA02C2330F8D80099E639 /* Constants.swift */; };
+		C3498340312DD25D8857B9AC /* Pods_CarTrawlerSDKIntegrated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4901114A5688176A9C0699E1 /* Pods_CarTrawlerSDKIntegrated.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4901114A5688176A9C0699E1 /* Pods_CarTrawlerSDKIntegrated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarTrawlerSDKIntegrated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92055EABC5B3A56EE3D50A5E /* Pods-CarTrawlerSDKIntegrated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTrawlerSDKIntegrated.release.xcconfig"; path = "Target Support Files/Pods-CarTrawlerSDKIntegrated/Pods-CarTrawlerSDKIntegrated.release.xcconfig"; sourceTree = "<group>"; };
+		AFFBA0102330F4090099E639 /* CarTrawlerSDKIntegrated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarTrawlerSDKIntegrated.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFBA0132330F4090099E639 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFFBA0142330F4090099E639 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFFBA0162330F4090099E639 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFFBA0172330F4090099E639 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFFBA01A2330F4090099E639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFFBA01C2330F40B0099E639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFFBA01F2330F40B0099E639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFFBA0212330F40B0099E639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFBA0222330F40B0099E639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFFBA0292330F89E0099E639 /* CarTrawlerSDKIntegrated-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarTrawlerSDKIntegrated-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFFBA02A2330F89F0099E639 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		AFFBA02C2330F8D80099E639 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D9EED034350DB1781B73B3CB /* Pods-CarTrawlerSDKIntegrated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarTrawlerSDKIntegrated.debug.xcconfig"; path = "Target Support Files/Pods-CarTrawlerSDKIntegrated/Pods-CarTrawlerSDKIntegrated.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFBA00D2330F4080099E639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3498340312DD25D8857B9AC /* Pods_CarTrawlerSDKIntegrated.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103C65DD7362305E6F988846 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9EED034350DB1781B73B3CB /* Pods-CarTrawlerSDKIntegrated.debug.xcconfig */,
+				92055EABC5B3A56EE3D50A5E /* Pods-CarTrawlerSDKIntegrated.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93750EF989A6907C11077DDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4901114A5688176A9C0699E1 /* Pods_CarTrawlerSDKIntegrated.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFFBA0072330F4080099E639 = {
+			isa = PBXGroup;
+			children = (
+				AFFBA0122330F4090099E639 /* CarTrawlerSDKIntegrated */,
+				AFFBA0112330F4090099E639 /* Products */,
+				103C65DD7362305E6F988846 /* Pods */,
+				93750EF989A6907C11077DDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFBA0112330F4090099E639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFBA0102330F4090099E639 /* CarTrawlerSDKIntegrated.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFBA0122330F4090099E639 /* CarTrawlerSDKIntegrated */ = {
+			isa = PBXGroup;
+			children = (
+				AFFBA02C2330F8D80099E639 /* Constants.swift */,
+				AFFBA02A2330F89F0099E639 /* PresentViewController.swift */,
+				AFFBA0132330F4090099E639 /* AppDelegate.h */,
+				AFFBA0142330F4090099E639 /* AppDelegate.m */,
+				AFFBA0162330F4090099E639 /* ViewController.h */,
+				AFFBA0172330F4090099E639 /* ViewController.m */,
+				AFFBA0192330F4090099E639 /* Main.storyboard */,
+				AFFBA01C2330F40B0099E639 /* Assets.xcassets */,
+				AFFBA01E2330F40B0099E639 /* LaunchScreen.storyboard */,
+				AFFBA0212330F40B0099E639 /* Info.plist */,
+				AFFBA0222330F40B0099E639 /* main.m */,
+				AFFBA0292330F89E0099E639 /* CarTrawlerSDKIntegrated-Bridging-Header.h */,
+			);
+			path = CarTrawlerSDKIntegrated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFBA00F2330F4080099E639 /* CarTrawlerSDKIntegrated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFBA0262330F40B0099E639 /* Build configuration list for PBXNativeTarget "CarTrawlerSDKIntegrated" */;
+			buildPhases = (
+				45F9628031037A97078E1D20 /* [CP] Check Pods Manifest.lock */,
+				AFFBA00C2330F4080099E639 /* Sources */,
+				AFFBA00D2330F4080099E639 /* Frameworks */,
+				AFFBA00E2330F4080099E639 /* Resources */,
+				A76103A107060EF1AB4E70B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarTrawlerSDKIntegrated;
+			productName = CarTrawlerSDKIntegrated;
+			productReference = AFFBA0102330F4090099E639 /* CarTrawlerSDKIntegrated.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFBA0082330F4080099E639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = CarTrawler;
+				TargetAttributes = {
+					AFFBA00F2330F4080099E639 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = AFFBA00B2330F4080099E639 /* Build configuration list for PBXProject "CarTrawlerSDKIntegrated" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFFBA0072330F4080099E639;
+			productRefGroup = AFFBA0112330F4090099E639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFBA00F2330F4080099E639 /* CarTrawlerSDKIntegrated */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFFBA00E2330F4080099E639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFBA0202330F40B0099E639 /* LaunchScreen.storyboard in Resources */,
+				AFFBA01D2330F40B0099E639 /* Assets.xcassets in Resources */,
+				AFFBA01B2330F4090099E639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45F9628031037A97078E1D20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarTrawlerSDKIntegrated-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A76103A107060EF1AB4E70B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarTrawlerSDKIntegrated/Pods-CarTrawlerSDKIntegrated-frameworks.sh",
+				"${PODS_ROOT}/CTPayment/CTPayment.framework",
+				"${PODS_ROOT}/CarTrawlerTest/CarTrawlerSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTPayment.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarTrawlerSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarTrawlerSDKIntegrated/Pods-CarTrawlerSDKIntegrated-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFBA00C2330F4080099E639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFBA02D2330F8D80099E639 /* Constants.swift in Sources */,
+				AFFBA0182330F4090099E639 /* ViewController.m in Sources */,
+				AFFBA0232330F40B0099E639 /* main.m in Sources */,
+				AFFBA02B2330F89F0099E639 /* PresentViewController.swift in Sources */,
+				AFFBA0152330F4090099E639 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFFBA0192330F4090099E639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFBA01A2330F4090099E639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFFBA01E2330F40B0099E639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFBA01F2330F40B0099E639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFFBA0242330F40B0099E639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFFBA0252330F40B0099E639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFFBA0272330F40B0099E639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9EED034350DB1781B73B3CB /* Pods-CarTrawlerSDKIntegrated.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUTDSM5D28;
+				INFOPLIST_FILE = CarTrawlerSDKIntegrated/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cartrawler.integrated.build;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarTrawlerSDKIntegrated/CarTrawlerSDKIntegrated-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFFBA0282330F40B0099E639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92055EABC5B3A56EE3D50A5E /* Pods-CarTrawlerSDKIntegrated.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUTDSM5D28;
+				INFOPLIST_FILE = CarTrawlerSDKIntegrated/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cartrawler.integrated.build;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarTrawlerSDKIntegrated/CarTrawlerSDKIntegrated-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFBA00B2330F4080099E639 /* Build configuration list for PBXProject "CarTrawlerSDKIntegrated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFBA0242330F40B0099E639 /* Debug */,
+				AFFBA0252330F40B0099E639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFBA0262330F40B0099E639 /* Build configuration list for PBXNativeTarget "CarTrawlerSDKIntegrated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFBA0272330F40B0099E639 /* Debug */,
+				AFFBA0282330F40B0099E639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFFBA0082330F4080099E639 /* Project object */;
+}

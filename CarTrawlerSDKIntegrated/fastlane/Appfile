@@ -1,0 +1,3 @@
+app_identifier "com.cartrawler.integrated.build" # The bundle identifier of your app
+team_id "QUTDSM5D28" # Developer Portal Team ID
+#username "rortiz@cartrawler.com"

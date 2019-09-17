@@ -1,0 +1,50 @@
+default_platform(:ios)
+
+platform :ios do
+  before_all do |lane, options|
+    cocoapods(
+      repo_update: true,
+      try_repo_update_on_error: true
+    )
+  end
+
+  desc "QA Lane used for Automation Distribution purposes"
+  desc "The .IPA will be generated inside the buildRelease folder"
+  lane :QA_Distribution do |options|
+
+    clear_derived_data
+    # set build number from jenkins
+    build_number = ENV['BUILD_NUMBER']
+
+    if build_number.nil? then
+      build_number = options[:build_number]
+      if build_number.nil? then
+        UI.user_error!("ERROR: You must pass build_number argument if is not running by Jenkins")
+      end
+    end
+  
+    set_info_plist_value(path: "./CarTrawlerSDKIntegrated/Info.plist", key: "CFBundleShortVersionString", value: "#{build_number}")
+    set_info_plist_value(path: "./CarTrawlerSDKIntegrated/Info.plist", key: "CFBundleVersion", value: "#{build_number}")
+
+    sigh(development: false,
+          username: "rortiz@cartrawler.com",
+          readonly: false)
+    gym(
+      workspace: "CarTrawlerSDKIntegrated.xcworkspace",
+      scheme: "CarTrawlerSDKIntegrated",
+      configuration: "Release",
+      output_directory: "buildRelease",
+      output_name: "CarTrawlerSDKIntegrated.ipa",
+      export_method: 'enterprise',
+    )
+
+    appcenter_upload(
+      api_token: "5d8bd4e096a3f73220d8b662fa18754bd40d994b",
+      owner_name: "rortiz-cartrawler.com",
+      app_name: "CarTrawlerSDK-Integrated-Build",
+      ipa: "./buildRelease/CarTrawlerSDKIntegrated.ipa",
+      notify_testers: true # Set to false if you don't want to notify testers of your new release (default: `false`)
+    )
+
+  end
+end

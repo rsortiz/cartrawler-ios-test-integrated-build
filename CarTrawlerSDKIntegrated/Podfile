@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/cartrawler/cartrawler-ios-pods'
+source 'https://github.cartrawler.com/cartrawler/cartrawler-ios-internal-pods'
+
+platform :ios, '9.0'
+use_frameworks!
+
+target 'CarTrawlerSDKIntegrated' do
+    pod 'CarTrawlerTest'
+    pod 'AppCenter'
+end
