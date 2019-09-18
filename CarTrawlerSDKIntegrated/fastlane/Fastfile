@@ -8,9 +8,8 @@ platform :ios do
     )
   end
 
-  desc "QA Lane used for Automation Distribution purposes"
-  desc "The .IPA will be generated inside the buildRelease folder"
-  lane :QA_Distribution do |options|
+  desc "Integrated app distribution"
+  lane :ci_integrated_app_distribution do |options|
 
     clear_derived_data
     # set build number from jenkins
